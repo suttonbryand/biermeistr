@@ -14,7 +14,7 @@
 				</div>
 			</div>
 			@endif
-			
+
 			<div class="panel panel-default">
 				<div class="panel-heading">You Have Not Had These Beers!</div>
 
@@ -52,7 +52,7 @@
 					<div class="list-group">
 						@foreach($not_found_beers as $ub)
   						<a href="#" class="list-group-item active">
-    						<h4 class="list-group-item-heading">{{$ub->beer_name}}</h4>
+    						<h4 class="list-group-item-heading">{{$ub}}</h4>
   						</a>
   						@endforeach
 					</div>
