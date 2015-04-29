@@ -95,7 +95,7 @@ class VenueController extends Controller {
 				->with('error',$error)	;	
 		}
 		catch(\Exception $e){
-			return view('venue.menu')->with('error',$error);
+			return view('venue.menu')->with('error',$e->getMessage());
 		}
 	}
 
