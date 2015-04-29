@@ -60,7 +60,8 @@ class VenueController extends Controller {
 		}
 		catch(Pintlabs_Service_Untappd_Exception $e){
 			return view('error')->with('error',$e->getMessage());
-		}			
+		}
+		$error = false;			
 		foreach ($links as $l){
 			try{
 				$url = $l->href;
@@ -82,13 +83,15 @@ class VenueController extends Controller {
 				}
 			}
 			catch(Pintlabs_Service_Untappd_Exception $e){
+				$error = $e->getMessage();
 				break;
 			}	
 		}
 		return view('venue.menu')
 				->with('unhad_beers',$unhad_beers)
 				->with('had_beers',$had_beers)
-				->with('not_found_beers',$not_found_beers)	;	
+				->with('not_found_beers',$not_found_beers)
+				->with('error',$error)	;	
 	}
 
 	/**
