@@ -37,7 +37,7 @@
 				</ul>
 
 				<ul class="nav navbar-nav navbar-right">
-					<a href="{{ url('/logout') }}">Logout</a>
+					<li><a href="{{ url('/logout') }}">Logout</a></li>
 				</ul>
 			</div>
 		</div>
