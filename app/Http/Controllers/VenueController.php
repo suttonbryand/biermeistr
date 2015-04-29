@@ -48,37 +48,47 @@ class VenueController extends Controller {
 	{
 		include "Untappd/Pintlabs_Service_Untappd.php";
 		$token = Session::get('UntappdAccessToken');
-		$p = new Pintlabs_Service_Untappd(array("accessToken" => $token));
-		//$response = $p->beerSearch("Stone+Smoked+Porter+w+Vanilla+Bean");
-		//dd($response);
-		$html = new \Htmldom("http://" . strtolower($city) . ".taphunter.com/location/" . $name . "#tab_tap");
-		$links = $html->find("div[id=tab_tap] a.title");
-		$unhad_beers = array();
-		$had_beers = array();
-		$not_found_beers = array();		
+		try{
+			$p = new Pintlabs_Service_Untappd(array("accessToken" => $token));
+			//$response = $p->beerSearch("Stone+Smoked+Porter+w+Vanilla+Bean");
+			//dd($response);
+			$html = new \Htmldom("http://" . strtolower($city) . ".taphunter.com/location/" . $name . "#tab_tap");
+			$links = $html->find("div[id=tab_tap] a.title");
+			$unhad_beers = array();
+			$had_beers = array();
+			$not_found_beers = array();
+		}
+		catch(Pintlabs_Service_Untappd_Exception $e){
+			return view('error')->with('error',$e->getMessage());
+		}			
 		foreach ($links as $l){
-			$url = $l->href;
-			$beer_clean = preg_replace("/^\/beer\/-?/","",$url);
-			$beer_name = preg_replace("/-/"," ",$beer_clean);
-			$beer_link = preg_replace("/-/","+",$beer_clean);
-			$response = $p->beerSearch($beer_link);
-			if(sizeof($response->response->beers->items) > 0){
-				$beer = $response->response->beers->items[0];
-				if($beer->have_had){
-					$had_beers[] = $beer;
+			try{
+				$url = $l->href;
+				$beer_clean = preg_replace("/^\/beer\/-?/","",$url);
+				$beer_name = preg_replace("/-/"," ",$beer_clean);
+				$beer_link = preg_replace("/-/","+",$beer_clean);
+				$response = $p->beerSearch($beer_link);
+				if(sizeof($response->response->beers->items) > 0){
+					$beer = $response->response->beers->items[0];
+					if($beer->have_had){
+						$had_beers[] = $beer;
+					}
+					else{
+						$unhad_beers[] = $beer;
+					}
 				}
 				else{
-					$unhad_beers[] = $beer;
+					$not_found_beers[] = $beer_name;
 				}
 			}
-			else{
-				$not_found_beers[] = $beer_name;
-			}
+			catch(Pintlabs_Service_Untappd_Exception $e){
+				break;
+			}	
 		}
 		return view('venue.menu')
 				->with('unhad_beers',$unhad_beers)
 				->with('had_beers',$had_beers)
-				->with('not_found_beers',$not_found_beers)	;		
+				->with('not_found_beers',$not_found_beers)	;	
 	}
 
 	/**

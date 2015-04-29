@@ -11,7 +11,7 @@
 					<div class="list-group">
 						@foreach($unhad_beers as $ub)
   						<a href="#" class="list-group-item active">
-    						<h4 class="list-group-item-heading">{{$ub->beer_name}}</h4>
+    						<h4 class="list-group-item-heading">{{$ub->beer->beer_name}}</h4>
     						<p class="list-group-item-text">{{$ub->brewery->brewery_name}}</p>
   						</a>
   						@endforeach

@@ -90,13 +90,18 @@ class UserController extends Controller {
 
 	public function loginCode(Request $request){
 		include "Untappd/Pintlabs_Service_Untappd.php";
-		$p = new Pintlabs_Service_Untappd();
-		$code = $request->input('code');
-		$token = $p->getAccessToken($code);
-		Session::put('UntappdAccessToken',$token);
-		$user_info = $p->userInfo();
-		Session::put('user_first_name',$user_info->response->user->first_name);
-		return redirect('/');
+		try{
+			$p = new Pintlabs_Service_Untappd();
+			$code = $request->input('code');
+			$token = $p->getAccessToken($code);
+			Session::put('UntappdAccessToken',$token);
+			$user_info = $p->userInfo();
+			Session::put('user_first_name',$user_info->response->user->first_name);
+			return redirect('/');
+		}
+		catch(Pintlabs_Service_Untappd_Exception $e){
+			return view('error')->with('error',$e->getMessage());
+		}
 	}
 
 	public function logout(){
