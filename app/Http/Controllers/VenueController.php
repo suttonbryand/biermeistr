@@ -46,6 +46,7 @@ class VenueController extends Controller {
 	 */
 	public function show($city,$name)
 	{
+		try{
 		include "Untappd/Pintlabs_Service_Untappd.php";
 		$token = Session::get('UntappdAccessToken');
 		try{
@@ -92,6 +93,10 @@ class VenueController extends Controller {
 				->with('had_beers',$had_beers)
 				->with('not_found_beers',$not_found_beers)
 				->with('error',$error)	;	
+		}
+		catch(\Exception $e){
+			return view('venue.menu')->with('error',$error);
+		}
 	}
 
 	/**
