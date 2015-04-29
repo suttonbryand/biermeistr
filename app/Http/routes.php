@@ -11,15 +11,19 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
+Route::get('/', 'PageController@home');
 
 Route::get('home', 'HomeController@index');
 
 Route::get('login', 'UserController@login');
 
+Route::get('logout', 'UserController@logout');
+
 Route::get('login/code', 'UserController@loginCode');
 
-Route::get('venues/{name}', 'VenueController@show');
+Route::get('venues/{city}/{name}', 'VenueController@show');
+
+Route::get('city', 'VenueController@city');
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',

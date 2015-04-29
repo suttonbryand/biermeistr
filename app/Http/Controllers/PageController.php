@@ -6,7 +6,8 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session; 
 
-class UserController extends Controller {
+
+class PageController extends Controller {
 
 	/**
 	 * Display a listing of the resource.
@@ -82,26 +83,13 @@ class UserController extends Controller {
 		//
 	}
 
-	public function login(){
-		include "Untappd/Pintlabs_Service_Untappd.php";
-		$p = new Pintlabs_Service_Untappd();
-		return redirect($p->authenticateURI());
-	}
-
-	public function loginCode(Request $request){
-		include "Untappd/Pintlabs_Service_Untappd.php";
-		$p = new Pintlabs_Service_Untappd();
-		$code = $request->input('code');
-		$token = $p->getAccessToken($code);
-		Session::put('UntappdAccessToken',$token);
-		$user_info = $p->userInfo();
-		Session::put('user_first_name',$user_info->response->user->first_name);
-		return redirect('/');
-	}
-
-	public function logout(){
-		Session::flush();
-		return redirect('/');
+	public function home(){
+		if(Session::has('UntappdAccessToken')){
+			return view('home')->with('first_name',Session::get('user_first_name'));
+		}
+		else{
+			return view('login');
+		}
 	}
 
 }

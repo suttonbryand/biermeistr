@@ -44,26 +44,41 @@ class VenueController extends Controller {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function show($id)
+	public function show($city,$name)
 	{
 		include "Untappd/Pintlabs_Service_Untappd.php";
 		$token = Session::get('UntappdAccessToken');
 		$p = new Pintlabs_Service_Untappd(array("accessToken" => $token));
 		//$response = $p->beerSearch("Stone+Smoked+Porter+w+Vanilla+Bean");
 		//dd($response);
-		$html = new \Htmldom('http://houston.taphunter.com/location/Hop-Scholar-Ale-House#tab_tap');
+		$html = new \Htmldom("http://" . strtolower($city) . ".taphunter.com/location/" . $name . "#tab_tap");
 		$links = $html->find("div[id=tab_tap] a.title");
+		$unhad_beers = array();
+		$had_beers = array();
+		$not_found_beers = array();		
 		foreach ($links as $l){
 			$url = $l->href;
 			$beer_clean = preg_replace("/^\/beer\/-?/","",$url);
 			$beer_name = preg_replace("/-/"," ",$beer_clean);
 			$beer_link = preg_replace("/-/","+",$beer_clean);
 			$response = $p->beerSearch($beer_link);
-			$had_beer = (sizeof($response->response->beers->items) > 0 && $response->response->beers->items[0]->have_had);
-			$color = $had_beer ? "black" : "green";
-			$had_beer_text = $had_beer ? "You've had it" : "You haven't had it!";
-			echo "<div style='color:$color'>" . $beer_name . " :: " . $had_beer_text . "</div>";
+			if(sizeof($response->response->beers->items) > 0){
+				$beer = $response->response->beers->items[0];
+				if($beer->have_had){
+					$had_beers[] = $beer;
+				}
+				else{
+					$unhad_beers[] = $beer;
+				}
+			}
+			else{
+				$not_found_beers[] = $beer_name;
+			}
 		}
+		return view('venue.menu')
+				->with('unhad_beers',$unhad_beers)
+				->with('had_beers',$had_beers)
+				->with('not_found_beers',$not_found_beers)	;		
 	}
 
 	/**
@@ -97,6 +112,27 @@ class VenueController extends Controller {
 	public function destroy($id)
 	{
 		//
+	}
+
+	public function city(Request $request){
+		$city = $request->input('c');
+		$cities_link = "http://" . strtolower($city) . ".taphunter.com/location/";
+		$html = new \Htmldom($cities_link);
+		$links = $html->find(".title a");
+		$urls = array();
+		foreach ($links as $l){
+			$url = $l->href;
+			$urls[] = array(preg_replace('/\/location\//','/venues/' . $city . '/',$url),$l->innertext);
+		}
+		usort($urls, function($a, $b){
+			$v1 = $a[0];
+			$v2 = $b[0];
+
+			if($v1 == $v2) return 0;
+
+			return $v1 < $v2 ? -1 : 1;
+		});
+		return view('venue.city')->with('city',$city)->with('urls',$urls);
 	}
 
 }
