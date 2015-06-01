@@ -1,0 +1,1149 @@
+{
+  "meta": {
+    "code": 200,
+    "response_time": {
+      "time": 2.125,
+      "measure": "seconds"
+    },
+    "init_time": {
+      "time": 0.001,
+      "measure": "seconds"
+    }
+  },
+  "notifications": [],
+  "response": {
+    "is_search": false,
+    "beers": {
+      "sort": "date",
+      "sort_english": "Date (Descending)",
+      "count": 25,
+      "items": [
+        {
+          "first_checkin_id": 188499260,
+          "first_created_at": "Sun, 31 May 2015 15:05:50 -0400",
+          "recent_checkin_id": 188499260,
+          "recent_created_at": "Sun, 31 May 2015 15:05:50 -0400",
+          "recent_created_at_timezone": "-4",
+          "rating_score": 4,
+          "first_had": "Sun, 31 May 2015 15:05:50 -0400",
+          "count": 1,
+          "beer": {
+            "bid": 400112,
+            "beer_name": "We Are All Infinite Energy Vibrating At The Same Frequency",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/assets/images/temp/badge-beer-default.png",
+            "beer_abv": 6.2,
+            "beer_ibu": 0,
+            "beer_slug": "tired-hands-brewing-company-we-are-all-infinite-energy-vibrating-at-the-same-frequency",
+            "beer_style": "American IPA",
+            "beer_description": "Brewed with wheat. Hopped intensely with Centennial and Simcoe.",
+            "created_at": "Sat, 06 Jul 2013 10:40:59 +0000",
+            "auth_rating": 0,
+            "wish_list": false,
+            "rating_score": 4.081,
+            "rating_count": 1133
+          },
+          "brewery": {
+            "brewery_id": 6226,
+            "brewery_name": "Tired Hands Brewing Company",
+            "brewery_slug": "tired-hands-brewing-company",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-TiredHands_6226.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "tiredhandsbeer",
+              "facebook": "http://www.facebook.com/tiredhands",
+              "instagram": "",
+              "url": "http://www.tiredhands.com/"
+            },
+            "location": {
+              "brewery_city": "Ardmore",
+              "brewery_state": "PA",
+              "lat": 40.0086,
+              "lng": -75.2936
+            },
+            "brewery_active": 1
+          }
+        },
+        {
+          "first_checkin_id": 188485023,
+          "first_created_at": "Sun, 31 May 2015 14:33:56 -0400",
+          "recent_checkin_id": 188485023,
+          "recent_created_at": "Sun, 31 May 2015 14:33:56 -0400",
+          "recent_created_at_timezone": "-4",
+          "rating_score": 3.5,
+          "first_had": "Sun, 31 May 2015 14:33:56 -0400",
+          "count": 1,
+          "beer": {
+            "bid": 181839,
+            "beer_name": "HopHands",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/assets/images/temp/badge-beer-default.png",
+            "beer_abv": 4.8,
+            "beer_ibu": 0,
+            "beer_slug": "tired-hands-brewing-company-hophands",
+            "beer_style": "American Pale Ale",
+            "beer_description": "Our exceedingly aromatic American Pale Ale. Hopped with Amarillo, Centennial, and Columbus. Nuances of tangelo, under-ripe kiwi, and pine needles.",
+            "created_at": "Sat, 02 Jun 2012 17:19:24 +0000",
+            "auth_rating": 0,
+            "wish_list": false,
+            "rating_score": 3.963,
+            "rating_count": 4227
+          },
+          "brewery": {
+            "brewery_id": 6226,
+            "brewery_name": "Tired Hands Brewing Company",
+            "brewery_slug": "tired-hands-brewing-company",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-TiredHands_6226.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "tiredhandsbeer",
+              "facebook": "http://www.facebook.com/tiredhands",
+              "instagram": "",
+              "url": "http://www.tiredhands.com/"
+            },
+            "location": {
+              "brewery_city": "Ardmore",
+              "brewery_state": "PA",
+              "lat": 40.0086,
+              "lng": -75.2936
+            },
+            "brewery_active": 1
+          }
+        },
+        {
+          "first_checkin_id": 188268757,
+          "first_created_at": "Sat, 30 May 2015 21:46:10 -0400",
+          "recent_checkin_id": 188268757,
+          "recent_created_at": "Sat, 30 May 2015 21:46:10 -0400",
+          "recent_created_at_timezone": "-4",
+          "rating_score": 3.5,
+          "first_had": "Sat, 30 May 2015 21:46:10 -0400",
+          "count": 1,
+          "beer": {
+            "bid": 113562,
+            "beer_name": "Positive Contact",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/beer_logos/beer-PositiveContact_113562.jpeg",
+            "beer_abv": 9,
+            "beer_ibu": 0,
+            "beer_slug": "dogfish-head-craft-brewery-positive-contact",
+            "beer_style": "Fruit Beer",
+            "beer_description": "Positive Contact is a cider-beer-hybrid very loosely based on a Belgian-style Wit beer brewed with a bunch of unconventional ingredients for the style. Typically, wits are brewed using bitter orange peel and coriander, but we went a different route. Inspired by one of Sam's trips to Eataly in New York City, Sam and Ben brewed this beer with organic Fuji apple cider, fresh organic cilantro, and dried cayenne pepper. The cider was pressed in house from 200 lbs of apples with our very own fruit press. These wonderful fresh ingredients were delivered to us a couple of days before the brew by Sams friend Zeke of Washington's Green Grocer.",
+            "created_at": "Tue, 27 Dec 2011 13:58:43 +0000",
+            "auth_rating": 0,
+            "wish_list": false,
+            "rating_score": 3.65,
+            "rating_count": 21790
+          },
+          "brewery": {
+            "brewery_id": 459,
+            "brewery_name": "Dogfish Head Craft Brewery",
+            "brewery_slug": "dogfish-head-craft-brewery",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-459_b3e4d.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "dogfishbeer",
+              "facebook": "http://www.facebook.com/dogfishheadbeer",
+              "instagram": "dogfishbeer",
+              "url": "http://www.dogfish.com/"
+            },
+            "location": {
+              "brewery_city": "Milton",
+              "brewery_state": "DE",
+              "lat": 38.7776,
+              "lng": -75.3099
+            },
+            "brewery_active": 1
+          }
+        },
+        {
+          "first_checkin_id": 188177770,
+          "first_created_at": "Sat, 30 May 2015 19:59:32 -0400",
+          "recent_checkin_id": 188177770,
+          "recent_created_at": "Sat, 30 May 2015 19:59:32 -0400",
+          "recent_created_at_timezone": "-4",
+          "rating_score": 3.5,
+          "first_had": "Sat, 30 May 2015 19:59:32 -0400",
+          "count": 1,
+          "beer": {
+            "bid": 330624,
+            "beer_name": "Stonefly India Pale Ale",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/beer_logos/beer-330624_77b80_sm.jpeg",
+            "beer_abv": 6.8,
+            "beer_ibu": 70,
+            "beer_slug": "saucony-creek-brewing-company-stonefly-india-pale-ale",
+            "beer_style": "American IPA",
+            "beer_description": "This is our nod to the time-honored vintage hops that made American IPA's so great. Hops like Cascade, Centennial and even the long forgotten Chinook are showcased here for their unique flavors and aromas. The bitterness is moderate while supporting the direct burst of hop fruitiness throughout the beer. A delightfully quaffable American IPA. \n\nThis beer is a collaborative effort with the Schuylkill Action Network, a water conservancy foundation protecting the water sources of the Schuylkill and Delaware River watersheds. A portion of proceeds is donated to the Schuylkill Action Network water conservancy efforts. For more information visit, www.schuylkillwaters.org",
+            "created_at": "Thu, 21 Mar 2013 08:25:03 +0000",
+            "auth_rating": 0,
+            "wish_list": false,
+            "rating_score": 3.442,
+            "rating_count": 4650
+          },
+          "brewery": {
+            "brewery_id": 52856,
+            "brewery_name": "Saucony Creek Brewing Company",
+            "brewery_slug": "saucony-creek-brewing-company",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-52856_e7e42.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "sauconybeer",
+              "facebook": "https://www.facebook.com/SauconyCreekBrewing",
+              "instagram": "sauconybeer",
+              "url": "http://sauconybeer.com"
+            },
+            "location": {
+              "brewery_city": "Kutztown",
+              "brewery_state": "PA",
+              "lat": 40.5009,
+              "lng": -75.797
+            },
+            "brewery_active": 1
+          }
+        },
+        {
+          "first_checkin_id": 187997424,
+          "first_created_at": "Sat, 30 May 2015 16:25:27 -0400",
+          "recent_checkin_id": 187997424,
+          "recent_created_at": "Sat, 30 May 2015 16:25:27 -0400",
+          "recent_created_at_timezone": "-4",
+          "rating_score": 4,
+          "first_had": "Sat, 30 May 2015 16:25:27 -0400",
+          "count": 1,
+          "beer": {
+            "bid": 6105,
+            "beer_name": "Burton Baton",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/beer_logos/beer-6105_2da9e_sm.jpeg",
+            "beer_abv": 10,
+            "beer_ibu": 70,
+            "beer_slug": "dogfish-head-craft-brewery-burton-baton",
+            "beer_style": "Imperial / Double IPA",
+            "beer_description": "An oak-aged, gentle giant which has been gaining popularity over the past few years and is now available year-round. Two \"threads,\" or batches, of beer — an English-style old ale and an imperial IPA — are brewed and, after separate fermentation in stainless tanks, are transferred and blended together in large oak tanks. Burton Baton sits on the wood for about a month.\n\nWhen enjoying the Burton Baton, you'll find an awesome blend of the citrus notes from Northwestern hops melding with woody, vanilla notes from the oak.",
+            "created_at": "Sun, 03 Oct 2010 15:57:20 +0000",
+            "auth_rating": 0,
+            "wish_list": false,
+            "rating_score": 4.098,
+            "rating_count": 52180
+          },
+          "brewery": {
+            "brewery_id": 459,
+            "brewery_name": "Dogfish Head Craft Brewery",
+            "brewery_slug": "dogfish-head-craft-brewery",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-459_b3e4d.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "dogfishbeer",
+              "facebook": "http://www.facebook.com/dogfishheadbeer",
+              "instagram": "dogfishbeer",
+              "url": "http://www.dogfish.com/"
+            },
+            "location": {
+              "brewery_city": "Milton",
+              "brewery_state": "DE",
+              "lat": 38.7776,
+              "lng": -75.3099
+            },
+            "brewery_active": 1
+          }
+        },
+        {
+          "first_checkin_id": 187972927,
+          "first_created_at": "Sat, 30 May 2015 15:56:44 -0400",
+          "recent_checkin_id": 187972927,
+          "recent_created_at": "Sat, 30 May 2015 15:56:44 -0400",
+          "recent_created_at_timezone": "-4",
+          "rating_score": 3.75,
+          "first_had": "Sat, 30 May 2015 15:56:44 -0400",
+          "count": 1,
+          "beer": {
+            "bid": 301756,
+            "beer_name": "Sixty-One",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/beer_logos/beer-301756_9d9e9_sm.jpeg",
+            "beer_abv": 6.5,
+            "beer_ibu": 60,
+            "beer_slug": "dogfish-head-craft-brewery-sixty-one",
+            "beer_style": "American IPA",
+            "beer_description": "A continually-hopped IPA brewed with Syrah grape must.",
+            "created_at": "Mon, 28 Jan 2013 11:01:16 +0000",
+            "auth_rating": 0,
+            "wish_list": false,
+            "rating_score": 3.642,
+            "rating_count": 58924
+          },
+          "brewery": {
+            "brewery_id": 459,
+            "brewery_name": "Dogfish Head Craft Brewery",
+            "brewery_slug": "dogfish-head-craft-brewery",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-459_b3e4d.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "dogfishbeer",
+              "facebook": "http://www.facebook.com/dogfishheadbeer",
+              "instagram": "dogfishbeer",
+              "url": "http://www.dogfish.com/"
+            },
+            "location": {
+              "brewery_city": "Milton",
+              "brewery_state": "DE",
+              "lat": 38.7776,
+              "lng": -75.3099
+            },
+            "brewery_active": 1
+          }
+        },
+        {
+          "first_checkin_id": 187467374,
+          "first_created_at": "Fri, 29 May 2015 17:56:05 -0400",
+          "recent_checkin_id": 187467374,
+          "recent_created_at": "Fri, 29 May 2015 17:56:05 -0400",
+          "recent_created_at_timezone": "-4",
+          "rating_score": 4,
+          "first_had": "Fri, 29 May 2015 17:56:05 -0400",
+          "count": 1,
+          "beer": {
+            "bid": 364477,
+            "beer_name": "American Beauty",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/beer_logos/beer-_364477_sm_716f98b89a1df77696fa43a69f4603.jpeg",
+            "beer_abv": 9,
+            "beer_ibu": 55,
+            "beer_slug": "dogfish-head-craft-brewery-american-beauty",
+            "beer_style": "American Strong Ale",
+            "beer_description": "",
+            "created_at": "Tue, 14 May 2013 12:00:29 +0000",
+            "auth_rating": 0,
+            "wish_list": false,
+            "rating_score": 3.882,
+            "rating_count": 27508
+          },
+          "brewery": {
+            "brewery_id": 459,
+            "brewery_name": "Dogfish Head Craft Brewery",
+            "brewery_slug": "dogfish-head-craft-brewery",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-459_b3e4d.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "dogfishbeer",
+              "facebook": "http://www.facebook.com/dogfishheadbeer",
+              "instagram": "dogfishbeer",
+              "url": "http://www.dogfish.com/"
+            },
+            "location": {
+              "brewery_city": "Milton",
+              "brewery_state": "DE",
+              "lat": 38.7776,
+              "lng": -75.3099
+            },
+            "brewery_active": 1
+          }
+        },
+        {
+          "first_checkin_id": 187390493,
+          "first_created_at": "Fri, 29 May 2015 14:58:42 -0400",
+          "recent_checkin_id": 187390493,
+          "recent_created_at": "Fri, 29 May 2015 14:58:42 -0400",
+          "recent_created_at_timezone": "-4",
+          "rating_score": 3.75,
+          "first_had": "Fri, 29 May 2015 14:58:42 -0400",
+          "count": 1,
+          "beer": {
+            "bid": 1097564,
+            "beer_name": "Thulium",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/assets/images/temp/badge-beer-default.png",
+            "beer_abv": 8.6,
+            "beer_ibu": 7,
+            "beer_slug": "mispillion-river-brewing-company-thulium",
+            "beer_style": "IPL (India Pale Lager)",
+            "beer_description": "",
+            "created_at": "Sat, 23 May 2015 19:58:14 +0000",
+            "auth_rating": 0,
+            "wish_list": false,
+            "rating_score": 3.75,
+            "rating_count": 12
+          },
+          "brewery": {
+            "brewery_id": 86769,
+            "brewery_name": "Mispillion River Brewing Company",
+            "brewery_slug": "mispillion-river-brewing-company",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-MispillionRiverBrewingCompany_86769_d8ea1.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "mispillion",
+              "facebook": "https://www.facebook.com/pages/Mispillion-River-Brewing/488006827886512?ref=hl&ref_type=bookmark",
+              "instagram": "mispillion",
+              "url": "http://mispillionriverbrewing.com"
+            },
+            "location": {
+              "brewery_city": "Milford",
+              "brewery_state": "DE",
+              "lat": 38.9313,
+              "lng": -75.451
+            },
+            "brewery_active": 1
+          }
+        },
+        {
+          "first_checkin_id": 187388309,
+          "first_created_at": "Fri, 29 May 2015 14:52:36 -0400",
+          "recent_checkin_id": 187388309,
+          "recent_created_at": "Fri, 29 May 2015 14:52:36 -0400",
+          "recent_created_at_timezone": "-4",
+          "rating_score": 3.5,
+          "first_had": "Fri, 29 May 2015 14:52:36 -0400",
+          "count": 1,
+          "beer": {
+            "bid": 685781,
+            "beer_name": "Reach Around IPA",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/beer_logos/beer-685781_80226_sm.jpeg",
+            "beer_abv": 6,
+            "beer_ibu": 0,
+            "beer_slug": "mispillion-river-brewing-company-reach-around-ipa",
+            "beer_style": "American IPA",
+            "beer_description": "",
+            "created_at": "Sun, 18 May 2014 23:28:27 +0000",
+            "auth_rating": 0,
+            "wish_list": false,
+            "rating_score": 3.617,
+            "rating_count": 1552
+          },
+          "brewery": {
+            "brewery_id": 86769,
+            "brewery_name": "Mispillion River Brewing Company",
+            "brewery_slug": "mispillion-river-brewing-company",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-MispillionRiverBrewingCompany_86769_d8ea1.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "mispillion",
+              "facebook": "https://www.facebook.com/pages/Mispillion-River-Brewing/488006827886512?ref=hl&ref_type=bookmark",
+              "instagram": "mispillion",
+              "url": "http://mispillionriverbrewing.com"
+            },
+            "location": {
+              "brewery_city": "Milford",
+              "brewery_state": "DE",
+              "lat": 38.9313,
+              "lng": -75.451
+            },
+            "brewery_active": 1
+          }
+        },
+        {
+          "first_checkin_id": 187345911,
+          "first_created_at": "Fri, 29 May 2015 12:11:05 -0400",
+          "recent_checkin_id": 187345911,
+          "recent_created_at": "Fri, 29 May 2015 12:11:05 -0400",
+          "recent_created_at_timezone": "-4",
+          "rating_score": 4,
+          "first_had": "Fri, 29 May 2015 12:11:05 -0400",
+          "count": 1,
+          "beer": {
+            "bid": 420951,
+            "beer_name": "Yippee-KI-P-A",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/assets/images/temp/badge-beer-default.png",
+            "beer_abv": 7.6,
+            "beer_ibu": 0,
+            "beer_slug": "iron-hill-brewery-restaurant-yippee-ki-p-a",
+            "beer_style": "American IPA",
+            "beer_description": "An American IPA hopbacked with whole leaf Columbus hops and dry-hopped with Amarillo and Citra hops. Providing intense herbal, pine, and citrus character. ",
+            "created_at": "Fri, 02 Aug 2013 18:39:24 +0000",
+            "auth_rating": 0,
+            "wish_list": false,
+            "rating_score": 3.645,
+            "rating_count": 249
+          },
+          "brewery": {
+            "brewery_id": 2585,
+            "brewery_name": "Iron Hill Brewery & Restaurant",
+            "brewery_slug": "iron-hill-brewery-restaurant",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-IronHillBreweryRestaurant_2585.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "ironhillbrewery",
+              "facebook": "http://www.facebook.com/pages/Iron-Hill-Brewery-and-Restaurant/50071072218?utm_source=ihbnewsletter&utm_medium=email&utm_campaig",
+              "instagram": "",
+              "url": "http://www.ironhillbrewery.com/"
+            },
+            "location": {
+              "brewery_city": "Wilmington",
+              "brewery_state": "DE",
+              "lat": 39.753,
+              "lng": -75.5776
+            },
+            "brewery_active": 1
+          }
+        },
+        {
+          "first_checkin_id": 186937958,
+          "first_created_at": "Wed, 27 May 2015 19:49:28 -0400",
+          "recent_checkin_id": 186937958,
+          "recent_created_at": "Wed, 27 May 2015 19:49:28 -0400",
+          "recent_created_at_timezone": "-4",
+          "rating_score": 3.75,
+          "first_had": "Wed, 27 May 2015 19:49:28 -0400",
+          "count": 1,
+          "beer": {
+            "bid": 1021879,
+            "beer_name": "Not So Winter Wheat",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/assets/images/temp/badge-beer-default.png",
+            "beer_abv": 8,
+            "beer_ibu": 14,
+            "beer_slug": "knee-deep-brewing-company-not-so-winter-wheat",
+            "beer_style": "Belgian Blonde / Golden",
+            "beer_description": "",
+            "created_at": "Mon, 23 Mar 2015 02:37:24 +0000",
+            "auth_rating": 0,
+            "wish_list": false,
+            "rating_score": 3.58,
+            "rating_count": 125
+          },
+          "brewery": {
+            "brewery_id": 2445,
+            "brewery_name": "Knee Deep Brewing Company",
+            "brewery_slug": "knee-deep-brewing-company",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-kneedeepbrewingcompany_2445.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "kneedeepbrewing",
+              "facebook": "http://www.facebook.com/kneedeepbrewco",
+              "instagram": "kneedeepbrewing",
+              "url": "http://kneedeepbrewing.com/"
+            },
+            "location": {
+              "brewery_city": "Auburn",
+              "brewery_state": "CA",
+              "lat": 38.9519,
+              "lng": -121.08
+            },
+            "brewery_active": 1
+          }
+        },
+        {
+          "first_checkin_id": 186929086,
+          "first_created_at": "Wed, 27 May 2015 19:27:44 -0400",
+          "recent_checkin_id": 186929086,
+          "recent_created_at": "Wed, 27 May 2015 19:27:44 -0400",
+          "recent_created_at_timezone": "-4",
+          "rating_score": 3.5,
+          "first_had": "Wed, 27 May 2015 19:27:44 -0400",
+          "count": 1,
+          "beer": {
+            "bid": 43412,
+            "beer_name": "Pilsner",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/beer_logos/beer-_43412_sm_6f04fe0fa562006941853eddd1eb38.jpeg",
+            "beer_abv": 5,
+            "beer_ibu": 30,
+            "beer_slug": "steamworks-brewing-company-pilsner",
+            "beer_style": "Czech Pilsener",
+            "beer_description": "",
+            "created_at": "Wed, 13 Apr 2011 00:07:40 +0000",
+            "auth_rating": 0,
+            "wish_list": false,
+            "rating_score": 3.349,
+            "rating_count": 2977
+          },
+          "brewery": {
+            "brewery_id": 1996,
+            "brewery_name": "Steamworks Brewing Company ",
+            "brewery_slug": "steamworks-brewing-company",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-steamworksbrewingcompany_1996.jpeg",
+            "country_name": "Canada",
+            "contact": {
+              "twitter": "SteamworksBeer",
+              "facebook": "http://www.facebook.com/SteamworksBeer",
+              "instagram": "Steamworksbeer",
+              "url": "http://www.steamworks.com/brewery"
+            },
+            "location": {
+              "brewery_city": "Burnaby",
+              "brewery_state": "BC",
+              "lat": 49.274,
+              "lng": -123.02
+            },
+            "brewery_active": 1
+          }
+        },
+        {
+          "first_checkin_id": 186039091,
+          "first_created_at": "Sun, 24 May 2015 17:33:34 -0400",
+          "recent_checkin_id": 186039091,
+          "recent_created_at": "Sun, 24 May 2015 17:33:34 -0400",
+          "recent_created_at_timezone": "-4",
+          "rating_score": 3,
+          "first_had": "Sun, 24 May 2015 17:33:34 -0400",
+          "count": 1,
+          "beer": {
+            "bid": 355209,
+            "beer_name": "Irish Pale",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/beer_logos/beer-_355209_sm_1c8ee7c5fc8e9bf514a5a6de0732f4.jpeg",
+            "beer_abv": 4,
+            "beer_ibu": 0,
+            "beer_slug": "shebeen-brewing-irish-pale",
+            "beer_style": "American Pale Ale",
+            "beer_description": "A light easy to drink session beer with just a dash of roasted barley.  Perfect for any weather.",
+            "created_at": "Mon, 29 Apr 2013 20:50:04 +0000",
+            "auth_rating": 0,
+            "wish_list": false,
+            "rating_score": 3.275,
+            "rating_count": 882
+          },
+          "brewery": {
+            "brewery_id": 25261,
+            "brewery_name": "Shebeen Brewing",
+            "brewery_slug": "shebeen-brewing",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-shebeenbrewing_25261.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "shebeenbrewing",
+              "facebook": "https://www.facebook.com/ShebeenBrewing",
+              "instagram": "",
+              "url": "http://www.shebeenbrewing.com"
+            },
+            "location": {
+              "brewery_city": "Wolcott",
+              "brewery_state": "CT",
+              "lat": 41.5745,
+              "lng": -73.0018
+            },
+            "brewery_active": 1
+          }
+        },
+        {
+          "first_checkin_id": 185416927,
+          "first_created_at": "Sat, 23 May 2015 16:04:58 -0400",
+          "recent_checkin_id": 185416927,
+          "recent_created_at": "Sat, 23 May 2015 16:04:58 -0400",
+          "recent_created_at_timezone": "-4",
+          "rating_score": 3.25,
+          "first_had": "Sat, 23 May 2015 16:04:58 -0400",
+          "count": 1,
+          "beer": {
+            "bid": 894556,
+            "beer_name": "Belle Fermiere Dry Hopped",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/assets/images/temp/badge-beer-default.png",
+            "beer_abv": 6.6,
+            "beer_ibu": 0,
+            "beer_slug": "overshores-brewing-company-belle-fermiere-dry-hopped",
+            "beer_style": "Saison / Farmhouse Ale",
+            "beer_description": "Sterling hops ",
+            "created_at": "Sat, 29 Nov 2014 20:53:06 +0000",
+            "auth_rating": 0,
+            "wish_list": false,
+            "rating_score": 3.52,
+            "rating_count": 61
+          },
+          "brewery": {
+            "brewery_id": 16440,
+            "brewery_name": "Overshores Brewing Company",
+            "brewery_slug": "overshores-brewing-company",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-OvershoresBrewingCompany_16440.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "overshores",
+              "facebook": "http://www.facebook.com/overshores",
+              "instagram": "",
+              "url": "http://www.overshores.com/"
+            },
+            "location": {
+              "brewery_city": "East Haven",
+              "brewery_state": "CT",
+              "lat": 41.2898,
+              "lng": -72.8739
+            },
+            "brewery_active": 1
+          }
+        },
+        {
+          "first_checkin_id": 185363454,
+          "first_created_at": "Sat, 23 May 2015 14:51:29 -0400",
+          "recent_checkin_id": 185363454,
+          "recent_created_at": "Sat, 23 May 2015 14:51:29 -0400",
+          "recent_created_at_timezone": "-4",
+          "rating_score": 3,
+          "first_had": "Sat, 23 May 2015 14:51:29 -0400",
+          "count": 1,
+          "beer": {
+            "bid": 1022935,
+            "beer_name": "Little Cranky",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/assets/images/temp/badge-beer-default.png",
+            "beer_abv": 4.5,
+            "beer_ibu": 50,
+            "beer_slug": "stony-creek-brewery-little-cranky",
+            "beer_style": "American IPA",
+            "beer_description": "",
+            "created_at": "Tue, 24 Mar 2015 21:57:10 +0000",
+            "auth_rating": 0,
+            "wish_list": false,
+            "rating_score": 3.421,
+            "rating_count": 158
+          },
+          "brewery": {
+            "brewery_id": 35610,
+            "brewery_name": "Stony Creek Brewery",
+            "brewery_slug": "stony-creek-brewery",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-StonyCreekBrewery_35610.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "stonycreekbeer",
+              "facebook": "https://www.facebook.com/StonyCreekBeer",
+              "instagram": "Stonycreekbeer",
+              "url": "http://www.stonycreekbeer.com"
+            },
+            "location": {
+              "brewery_city": "Branford",
+              "brewery_state": "CT",
+              "lat": 41.2779,
+              "lng": -72.7994
+            },
+            "brewery_active": 1
+          }
+        },
+        {
+          "first_checkin_id": 184140989,
+          "first_created_at": "Tue, 19 May 2015 19:22:03 -0400",
+          "recent_checkin_id": 184140989,
+          "recent_created_at": "Tue, 19 May 2015 19:22:03 -0400",
+          "recent_created_at_timezone": "-4",
+          "rating_score": 4,
+          "first_had": "Tue, 19 May 2015 19:22:03 -0400",
+          "count": 1,
+          "beer": {
+            "bid": 1040747,
+            "beer_name": "Non-cents",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/assets/images/temp/badge-beer-default.png",
+            "beer_abv": 5,
+            "beer_ibu": 0,
+            "beer_slug": "barrier-brewing-company-non-cents",
+            "beer_style": "American Pale Ale",
+            "beer_description": "",
+            "created_at": "Wed, 08 Apr 2015 19:51:42 +0000",
+            "auth_rating": 0,
+            "wish_list": false,
+            "rating_score": 3.591,
+            "rating_count": 379
+          },
+          "brewery": {
+            "brewery_id": 4171,
+            "brewery_name": "Barrier Brewing Company",
+            "brewery_slug": "barrier-brewing-company",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-BarrierBrewing_4171.png",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "BarrierBrewing",
+              "facebook": "",
+              "instagram": "",
+              "url": ""
+            },
+            "location": {
+              "brewery_city": "Oceanside",
+              "brewery_state": "NY",
+              "lat": 40.6387,
+              "lng": -73.6401
+            },
+            "brewery_active": 1
+          }
+        },
+        {
+          "first_checkin_id": 184132353,
+          "first_created_at": "Tue, 19 May 2015 18:59:08 -0400",
+          "recent_checkin_id": 184132353,
+          "recent_created_at": "Tue, 19 May 2015 18:59:08 -0400",
+          "recent_created_at_timezone": "-4",
+          "rating_score": 4,
+          "first_had": "Tue, 19 May 2015 18:59:08 -0400",
+          "count": 1,
+          "beer": {
+            "bid": 1037420,
+            "beer_name": "Nirvana IPA",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/beer_logos/beer-1037420_3829d_sm.jpeg",
+            "beer_abv": 6.5,
+            "beer_ibu": 60,
+            "beer_slug": "brewery-ommegang-nirvana-ipa",
+            "beer_style": "American IPA",
+            "beer_description": "Nirvana IPA is kettle-hopped with Bravo, Simcoe, Centennial, Topaz, and Mosaic, dry-hopped with Centennial, Citra, Simcoe and Amarillo and clocks in at 6.5% ABV and 60 IBUs. The flavor is hoppy, juicy and citrusy goodness – without harsh bitterness",
+            "created_at": "Sun, 05 Apr 2015 03:37:00 +0000",
+            "auth_rating": 0,
+            "wish_list": false,
+            "rating_score": 3.791,
+            "rating_count": 3451
+          },
+          "brewery": {
+            "brewery_id": 249,
+            "brewery_name": "Brewery Ommegang",
+            "brewery_slug": "brewery-ommegang",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-BreweryOmmegang_249.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "BreweryOmmegang",
+              "facebook": "http://www.facebook.com/ommegang",
+              "instagram": "",
+              "url": "http://www.ommegang.com/"
+            },
+            "location": {
+              "brewery_city": "Cooperstown",
+              "brewery_state": "NY",
+              "lat": 42.6818,
+              "lng": -74.9255
+            },
+            "brewery_active": 1
+          }
+        },
+        {
+          "first_checkin_id": 182415837,
+          "first_created_at": "Thu, 14 May 2015 23:15:16 -0400",
+          "recent_checkin_id": 182415837,
+          "recent_created_at": "Thu, 14 May 2015 23:15:16 -0400",
+          "recent_created_at_timezone": "-4",
+          "rating_score": 4.5,
+          "first_had": "Thu, 14 May 2015 23:15:16 -0400",
+          "count": 1,
+          "beer": {
+            "bid": 580047,
+            "beer_name": "Anniversary Ale 2",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/beer_logos/beer-_580047_sm_09f51f758223573fb985c3808967d8.jpeg",
+            "beer_abv": 10.1,
+            "beer_ibu": 0,
+            "beer_slug": "river-north-brewery-anniversary-ale-2",
+            "beer_style": "Belgian Blonde / Golden",
+            "beer_description": "Nelson-dry-hopped Belgian-style golden strong ale.",
+            "created_at": "Tue, 04 Feb 2014 18:00:58 +0000",
+            "auth_rating": 0,
+            "wish_list": false,
+            "rating_score": 3.89,
+            "rating_count": 340
+          },
+          "brewery": {
+            "brewery_id": 23833,
+            "brewery_name": "River North Brewery",
+            "brewery_slug": "river-north-brewery",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-RiverNorthBrewery_23833.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "rivernorthbrew",
+              "facebook": "http://www.facebook.com/rivernorthbrewery",
+              "instagram": "",
+              "url": "http://www.rivernorthbrewery.com"
+            },
+            "location": {
+              "brewery_city": "Denver",
+              "brewery_state": "CO",
+              "lat": 39.7585,
+              "lng": -104.989
+            },
+            "brewery_active": 1
+          }
+        },
+        {
+          "first_checkin_id": 182369803,
+          "first_created_at": "Thu, 14 May 2015 21:30:27 -0400",
+          "recent_checkin_id": 182369803,
+          "recent_created_at": "Thu, 14 May 2015 21:30:27 -0400",
+          "recent_created_at_timezone": "-4",
+          "rating_score": 4.75,
+          "first_had": "Thu, 14 May 2015 21:30:27 -0400",
+          "count": 1,
+          "beer": {
+            "bid": 718853,
+            "beer_name": "Haze",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/assets/images/temp/badge-beer-default.png",
+            "beer_abv": 8.2,
+            "beer_ibu": 90,
+            "beer_slug": "tree-house-brewing-company-haze",
+            "beer_style": "Imperial / Double IPA",
+            "beer_description": "Our Double IPA!  We constructed this beer around hops we currently have plenty of access to, allowing us to re-brew it on a (relatively) consistent basis.  We smell a ton of orange on the nose, with complimentary notes of peach and passionfruit. The flavor is similar with a blast of citrus fruit & orange quickly followed by spicy grapefruit, and earthy dankness.  A lingering but pleasant saturated hop oil finish awaits. . . .  So juicy, citrusy, and delicious! ",
+            "created_at": "Thu, 19 Jun 2014 20:58:38 +0000",
+            "auth_rating": 0,
+            "wish_list": false,
+            "rating_score": 4.426,
+            "rating_count": 2149
+          },
+          "brewery": {
+            "brewery_id": 20084,
+            "brewery_name": "Tree House Brewing Company",
+            "brewery_slug": "tree-house-brewing-company",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-treehousebrewingcompany_20084.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "treehousebrewco",
+              "facebook": "http://www.facebook.com/treehousebrewco",
+              "instagram": "treehousebrewco",
+              "url": "http://www.treehousebrew.com"
+            },
+            "location": {
+              "brewery_city": "Monson",
+              "brewery_state": "MA",
+              "lat": 42.0914,
+              "lng": -72.2853
+            },
+            "brewery_active": 1
+          }
+        },
+        {
+          "first_checkin_id": 181753352,
+          "first_created_at": "Tue, 12 May 2015 18:47:42 -0400",
+          "recent_checkin_id": 181753352,
+          "recent_created_at": "Tue, 12 May 2015 18:47:42 -0400",
+          "recent_created_at_timezone": "-4",
+          "rating_score": 4,
+          "first_had": "Tue, 12 May 2015 18:47:42 -0400",
+          "count": 1,
+          "beer": {
+            "bid": 606226,
+            "beer_name": "Mostly Cloudy",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/beer_logos/beer-606226_a9cf0_sm.jpeg",
+            "beer_abv": 4.7,
+            "beer_ibu": 12,
+            "beer_slug": "long-trail-brewing-company-mostly-cloudy",
+            "beer_style": "Witbier",
+            "beer_description": "Mostly Cloudy is modeled after the original Belgian Witbiers brewed \nin monasteries during the early 14th century. The soft notes of citrus and spice are topped with a light, fluffy head that finishes clean and crisp. This all natural ale is our latest seasonal brew, perfect for lounging lake-side or celebrating at trail’s end.",
+            "created_at": "Mon, 03 Mar 2014 15:15:55 +0000",
+            "auth_rating": 0,
+            "wish_list": false,
+            "rating_score": 3.43,
+            "rating_count": 11607
+          },
+          "brewery": {
+            "brewery_id": 801,
+            "brewery_name": "Long Trail Brewing Company",
+            "brewery_slug": "long-trail-brewing-company",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-801_0ac25.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "LongTrailBeer",
+              "facebook": "http://www.facebook.com/pages/Long-Trail-Brewing/142163634919",
+              "instagram": "longtrailbeer",
+              "url": "http://www.longtrail.com"
+            },
+            "location": {
+              "brewery_city": "Bridgewater Corners",
+              "brewery_state": "VT",
+              "lat": 43.5887,
+              "lng": -72.6589
+            },
+            "brewery_active": 1
+          }
+        },
+        {
+          "first_checkin_id": 180765896,
+          "first_created_at": "Sat, 09 May 2015 15:40:10 -0400",
+          "recent_checkin_id": 180765896,
+          "recent_created_at": "Sat, 09 May 2015 15:40:10 -0400",
+          "recent_created_at_timezone": "-4",
+          "rating_score": 3.75,
+          "first_had": "Sat, 09 May 2015 15:40:10 -0400",
+          "count": 1,
+          "beer": {
+            "bid": 555987,
+            "beer_name": "Hop Nosh IPA",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/beer_logos/beer-555987_6d7bc_sm.jpeg",
+            "beer_abv": 7.3,
+            "beer_ibu": 82,
+            "beer_slug": "uinta-brewing-company-hop-nosh-ipa",
+            "beer_style": "American IPA",
+            "beer_description": "And so, without further ado, Uinta introduces Hop Nosh IPA.\n\nAt first glance, one might not notice the change, and purposefully so. With the exception of 2 letters, everything remains untouched. From the iconic florescent green package, adorned with two busy farmers loading a wagon full of hops, to the beer within, the brand hasn’t been altered. Let’s be clear: the beer is still the same, a ‘top-notch’ IPA that has been enthusiastically received by impassioned craft beer drinkers.\n\nSo, what’s in a name? Beyond the appeal of not straying far from the use of “Hop Notch”, Uinta embraced their inner foodie realizing that “Nosh” was an excellent fit for this beer– so big in unique hop character that it is literally a hoppy snack.\n\nThe “Hop Notch” to “Hop Nosh” transition will roll out with the new year. In the midst of an expansion, a really exciting time at Uinta, it only took one sip of Hop Nosh for the Uinta team to digest the change and move on. Uinta hopes that the craft beer\n\ncommunity will embrace the transformation as Uinta has. Most importantly, within each bottle, can and keg lives the same IPA: drinkable, consistent, clean and hop-forward. Cheers to great beer, the camaraderie of the craft beer industry, and to Hop Nosh. May it always be perceived as a ‘top-notch IPA’.\n",
+            "created_at": "Wed, 08 Jan 2014 17:40:45 +0000",
+            "auth_rating": 0,
+            "wish_list": false,
+            "rating_score": 3.746,
+            "rating_count": 82146
+          },
+          "brewery": {
+            "brewery_id": 1304,
+            "brewery_name": "Uinta Brewing Company",
+            "brewery_slug": "uinta-brewing-company",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-UintaBrewingCompany_1304.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "UintaBrewing",
+              "facebook": "",
+              "instagram": "",
+              "url": "http://www.uintabrewing.com/"
+            },
+            "location": {
+              "brewery_city": "Salt Lake City",
+              "brewery_state": "UT",
+              "lat": 40.7326,
+              "lng": -111.954
+            },
+            "brewery_active": 1
+          }
+        },
+        {
+          "first_checkin_id": 180701094,
+          "first_created_at": "Sat, 09 May 2015 13:59:37 -0400",
+          "recent_checkin_id": 182359895,
+          "recent_created_at": "Thu, 14 May 2015 21:13:14 -0400",
+          "recent_created_at_timezone": "-4",
+          "rating_score": 4.25,
+          "first_had": "Sat, 09 May 2015 13:59:37 -0400",
+          "count": 3,
+          "beer": {
+            "bid": 282634,
+            "beer_name": "Sap",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/beer_logos/beer-282634_94571_sm.jpeg",
+            "beer_abv": 7.3,
+            "beer_ibu": 80,
+            "beer_slug": "tree-house-brewing-company-sap",
+            "beer_style": "American IPA",
+            "beer_description": "Though originally brewed as a \"Christmas\" beer, this piney IPA, brewed almost exclusively Chinook hops, was so enjoyable we decided to put it into the 'year round' rotation.   With it's golden yellow color, rich aroma, and drying body, it's hard to stop drinking this one.",
+            "created_at": "Sat, 22 Dec 2012 10:18:14 +0000",
+            "auth_rating": 0,
+            "wish_list": false,
+            "rating_score": 4.207,
+            "rating_count": 2931
+          },
+          "brewery": {
+            "brewery_id": 20084,
+            "brewery_name": "Tree House Brewing Company",
+            "brewery_slug": "tree-house-brewing-company",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-treehousebrewingcompany_20084.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "treehousebrewco",
+              "facebook": "http://www.facebook.com/treehousebrewco",
+              "instagram": "treehousebrewco",
+              "url": "http://www.treehousebrew.com"
+            },
+            "location": {
+              "brewery_city": "Monson",
+              "brewery_state": "MA",
+              "lat": 42.0914,
+              "lng": -72.2853
+            },
+            "brewery_active": 1
+          }
+        },
+        {
+          "first_checkin_id": 180700290,
+          "first_created_at": "Sat, 09 May 2015 13:58:12 -0400",
+          "recent_checkin_id": 182342458,
+          "recent_created_at": "Thu, 14 May 2015 20:42:38 -0400",
+          "recent_created_at_timezone": "-4",
+          "rating_score": 4.75,
+          "first_had": "Sat, 09 May 2015 13:58:12 -0400",
+          "count": 3,
+          "beer": {
+            "bid": 237985,
+            "beer_name": "Julius",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/beer_logos/beer-237985_09229_sm.jpeg",
+            "beer_abv": 6.8,
+            "beer_ibu": 72,
+            "beer_slug": "tree-house-brewing-company-julius",
+            "beer_style": "American IPA",
+            "beer_description": "Bursting with 1.6 oz per gallon of American hops, Julius is loaded with notes of passionfruit, mango, and citrus.  At 6.8% alcohol, it is refreshing and freakishly drinkable.",
+            "created_at": "Sat, 29 Sep 2012 20:59:37 +0000",
+            "auth_rating": 0,
+            "wish_list": false,
+            "rating_score": 4.509,
+            "rating_count": 5329
+          },
+          "brewery": {
+            "brewery_id": 20084,
+            "brewery_name": "Tree House Brewing Company",
+            "brewery_slug": "tree-house-brewing-company",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-treehousebrewingcompany_20084.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "treehousebrewco",
+              "facebook": "http://www.facebook.com/treehousebrewco",
+              "instagram": "treehousebrewco",
+              "url": "http://www.treehousebrew.com"
+            },
+            "location": {
+              "brewery_city": "Monson",
+              "brewery_state": "MA",
+              "lat": 42.0914,
+              "lng": -72.2853
+            },
+            "brewery_active": 1
+          }
+        },
+        {
+          "first_checkin_id": 179668042,
+          "first_created_at": "Tue, 05 May 2015 22:35:00 -0400",
+          "recent_checkin_id": 179668042,
+          "recent_created_at": "Tue, 05 May 2015 22:35:00 -0400",
+          "recent_created_at_timezone": "-4",
+          "rating_score": 3,
+          "first_had": "Tue, 05 May 2015 22:35:00 -0400",
+          "count": 1,
+          "beer": {
+            "bid": 320720,
+            "beer_name": "Honey Blonde",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/assets/images/temp/badge-beer-default.png",
+            "beer_abv": 4.5,
+            "beer_ibu": 22,
+            "beer_slug": "yonkers-brewing-co-honey-blonde",
+            "beer_style": "American Blonde Ale",
+            "beer_description": "This light golden ale provides the perfect jumping off point for drinkers new to craft beer.  The malty body is balanced with just a touch of hops.  A touch of local honey is added into the kettle adding some depth to the clean ale aroma.",
+            "created_at": "Sun, 03 Mar 2013 14:33:17 +0000",
+            "auth_rating": 0,
+            "wish_list": false,
+            "rating_score": 3.111,
+            "rating_count": 548
+          },
+          "brewery": {
+            "brewery_id": 51746,
+            "brewery_name": "Yonkers Brewing Co.",
+            "brewery_slug": "yonkers-brewing-co",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-YonkersBrewingCompany_51746_0cb66.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "yonkersbrewing",
+              "facebook": "http://www.fb.com/yonkersbrewing",
+              "instagram": "",
+              "url": "http://www.YonkersBrewing.com"
+            },
+            "location": {
+              "brewery_city": "Yonkers",
+              "brewery_state": "NY",
+              "lat": 40.9312,
+              "lng": -73.8988
+            },
+            "brewery_active": 1
+          }
+        },
+        {
+          "first_checkin_id": 179667915,
+          "first_created_at": "Tue, 05 May 2015 22:34:54 -0400",
+          "recent_checkin_id": 179667915,
+          "recent_created_at": "Tue, 05 May 2015 22:34:54 -0400",
+          "recent_created_at_timezone": "-4",
+          "rating_score": 3.5,
+          "first_had": "Tue, 05 May 2015 22:34:54 -0400",
+          "count": 1,
+          "beer": {
+            "bid": 374194,
+            "beer_name": "Bronx Summer Pale Ale",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/beer_logos/beer-_374194_sm_cfd6f87071919611ed7d4041b7a708.jpeg",
+            "beer_abv": 5.2,
+            "beer_ibu": 16,
+            "beer_slug": "the-bronx-brewery-bronx-summer-pale-ale",
+            "beer_style": "American Pale Ale",
+            "beer_description": "This balanced and refreshing pale ale is perfect for summer days in the city.  Brewed with British and American 2-row malts, a unique experimental hop variety and dried lemon peel, it offers a subtle and crisp citrus note.  It is dry-hopped, unfiltered and unpasteurized.",
+            "created_at": "Tue, 28 May 2013 15:41:22 +0000",
+            "auth_rating": 0,
+            "wish_list": false,
+            "rating_score": 3.423,
+            "rating_count": 1790
+          },
+          "brewery": {
+            "brewery_id": 15784,
+            "brewery_name": "The Bronx Brewery ",
+            "brewery_slug": "the-bronx-brewery",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-15784_b45e2.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "thebronxbrewery",
+              "facebook": "http://www.facebook.com/TheBronxBrewery",
+              "instagram": "thebronxbrewery",
+              "url": "http://www.thebronxbrewery.com"
+            },
+            "location": {
+              "brewery_city": "Bronx",
+              "brewery_state": "NY",
+              "lat": 40.8019,
+              "lng": -73.9106
+            },
+            "brewery_active": 1
+          }
+        }
+      ]
+    }
+  }
+}

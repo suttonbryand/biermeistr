@@ -4,9 +4,10 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\Session; 
 
-class VenueController extends Controller {
+
+class VenueController extends BaseController {
 
 	/**
 	 * Display a listing of the resource.
@@ -46,10 +47,9 @@ class VenueController extends Controller {
 	 */
 	public function show($city,$name)
 	{
-		include "Untappd/Pintlabs_Service_Untappd.php";
 		$token = Session::get('UntappdAccessToken');
 		try{
-			$p = new Pintlabs_Service_Untappd(array("accessToken" => $token));
+			$p = $this->getService(array("accessToken" => $token));
 			//$response = $p->beerSearch("Stone+Smoked+Porter+w+Vanilla+Bean");
 			//dd($response);
 			$html = new \Htmldom("http://" . strtolower($city) . ".taphunter.com/location/" . $name . "#tab_tap");

@@ -1,12 +1,12 @@
 <?php namespace App\Http\Controllers;
-
+ 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session; 
 
-class UserController extends Controller {
+class UserController extends BaseController {
 
 	/**
 	 * Display a listing of the resource.
@@ -83,20 +83,18 @@ class UserController extends Controller {
 	}
 
 	public function login(){
-		include "Untappd/Pintlabs_Service_Untappd.php";
-		$p = new Pintlabs_Service_Untappd();
-		return redirect($p->authenticateURI());
+		return redirect($this->getService()->authenticateURI());
 	}
 
 	public function loginCode(Request $request){
-		include "Untappd/Pintlabs_Service_Untappd.php";
 		try{
-			$p = new Pintlabs_Service_Untappd();
+			$p = $this->getService();
 			$code = $request->input('code');
 			$token = $p->getAccessToken($code);
-			Session::put('UntappdAccessToken',$token);
 			$user_info = $p->userInfo();
-			Session::put('user_first_name',$user_info->response->user->first_name);
+			$first_name = $user_info->response->user->first_name;
+			Session::put('UntappdAccessToken',$token);
+			Session::put('user_first_name',$first_name);
 			return redirect('/');
 		}
 		catch(Pintlabs_Service_Untappd_Exception $e){
