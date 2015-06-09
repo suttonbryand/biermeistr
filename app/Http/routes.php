@@ -28,4 +28,16 @@ Route::get('logout', 'UserController@logout');
 
 Route::get('login/code', 'UserController@loginCode');
 
+//Route::get('locallogin/{token}/{first_name}', 'UserController@locallogin');
+
+// API
+
+Route::group(['prefix' => 'api/v1'], function(){
+
+	Route::get('venues/{city}/{name}', 'ApiVenueController@show');
+
+	Route::get('city', 'ApiVenueController@city');
+
+});
+
 

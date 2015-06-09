@@ -7,11 +7,16 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session; 
 
 
-class BaseController extends Controller{
+abstract class BaseController extends Controller{
 
 	protected function getService(){
 		include "Untappd/Untappd.php";
 		return Untappd::getService();
+	}
+
+	protected function jsonResponse($response, $status = 200){
+		header("Content-type:application/json");
+		return array("meta" => array("status" => $status), "response" => $response);
 	}
 
 }
